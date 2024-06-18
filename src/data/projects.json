@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Keeper App",
+    "imageSrc": "projects/keeper.png",
+    "description": "A simple and intuitive note-taking application that allows users to easily add and manage notes. Users can create notes with titles and detailed content, ensuring all important information is organized and readily accessible. The app features a clean and user-friendly interface, making it easy to capture thoughts, to-dos, and ideas on the go.",
+    "skills": ["React", "Javascipt", "HTML", "CSS"],
+    "source": "https://github.com/ManmeetSingh99/keeper-app"
+  },
+  {
+    "title": "Income Tracker",
+    "imageSrc": "projects/incometrack.png",
+    "description": "A convenient application for managing and tracking your income. Users can add income entries with a detailed description, amount, and date.Additionally, users can delete entries as needed, maintaining an up-to-date and clutter-free tracker.",
+    "skills": ["Vue", "Javascript", "HTML", "CSS"],
+    "source": "https://github.com/ManmeetSingh99/vue-income-tracker"
+  },
+  {
+    "title": "Weather Application",
+    "imageSrc": "projects/weather.png",
+    "description": "A comprehensive and user-friendly application that provides real-time weather updates. Users can view current weather conditions, including temperature, humidity, and wind speed, for their selected location. The app also offers detailed forecasts for the upcoming days, helping users plan their activities accordingly.",
+    "skills": ["React", "Javascript", "HTML", "CSS"],
+    "source": "https://github.com/ManmeetSingh99/WeatherWebsiteReact"
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "A sleek and dynamic platform showcasing my skills and projects. The application highlights my expertise as a front-end developer, featuring applications built with React.js and Vue.js. It includes detailed sections for my professional experience, projects, and skills, along with an interactive UI for an engaging user experience",
+    "skills": ["Javascript", "HTML", "CSS"],
+
+    "source": "https://github.com/ManmeetSingh99/PortfolioJs.github.io"
+  }
+]

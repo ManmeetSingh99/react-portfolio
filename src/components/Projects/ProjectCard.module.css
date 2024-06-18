@@ -1,0 +1,129 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  border-radius: 15px;
+  background: linear-gradient(180deg, #0b2447 1%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 20px;
+  max-width: 35rem;
+  height: 40rem;
+  max-height: 40rem;
+  background-image: linear-gradient(
+    270deg,
+    #19376d 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 1s; /* Ensure transition is applied */
+}
+
+.container:hover {
+  background-size: 100% 100%;
+}
+
+.image {
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  display: block; /* Ensure image behaves as a block element */
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skill {
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 6px 16px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 4px 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .image {
+    max-width: 80%;
+  }
+
+  .container {
+    padding: 0px;
+    max-width: 25rem;
+    height: 30rem;
+    max-height: 30rem;
+    background-image: linear-gradient(
+      270deg,
+      #19376d 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s; /* Ensure transition is applied */
+  }
+
+  .container:hover,
+  .container:focus {
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .skill {
+    font-size: 16px;
+    padding: 4px 12px;
+  }
+
+  .link {
+    font-size: 16px;
+    padding: 3px 12px;
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Software Engineer Trainee",
+    "organisation": "Interbiz Consulting Pvt. Ltd.",
+    "startDate": "15 April, 2024",
+    "endDate": "15 June, 2024",
+    "experiences": [
+      "Developed a console application for a student management system.",
+      "Designed and implemented a database for managing member details such as address, contact information, bank accounts, educational background, and employment history.",
+      "Actively participated in code reviews, providing and receiving constructive feedback to improve code quality.",
+      "Gained extensive training and practical experience in key technologies including C#, MySQL, and LINQ."
+    ],
+    "imageSrc": "history/interbiz.jpeg"
+  },
+  {
+    "role": "Web Developer Intern",
+    "organisation": "LetsGrowMore",
+    "startDate": "1 Oct, 2021",
+    "endDate": "1 Nov, 2021",
+    "experiences": [
+      "Created a responsive single-page portfolio website to showcase personal projects, skills, and experiences.",
+      "Developed reusable React components for efficient code management."
+    ],
+    "imageSrc": "history/letsgrowmore.png"
+  }
+]
